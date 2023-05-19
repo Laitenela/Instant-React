@@ -1,0 +1,40 @@
+.addButton {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 70%;
+    top: 91%;
+    border: 4px solid rgba(0, 0, 0, 0.42);
+    box-shadow: inset 0px 0px 0px 30px rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    transition: box-shadow 0.2s ease;
+    mix-blend-mode: luminosity;
+}
+
+.addButton>div {
+
+    width: 100%;
+    height: 100%;
+    background: #757575;
+    mix-blend-mode: darken;
+    box-shadow: 1px 0px 21px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+}
+
+.addButton:hover {
+    box-shadow: inset 0px 0px 0px 30px rgba(0, 0, 0, 0.25);
+}
+
+.addButton:active {
+    box-shadow: inset 0px 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.addButton>img {
+
+    position: inherit;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    filter: invert(80%) sepia(42%) saturate(4556%) hue-rotate(131deg) brightness(95%) contrast(94%);
+}

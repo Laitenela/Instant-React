@@ -1,0 +1,21 @@
+aside {
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: rgb(131, 131, 131);
+    border: 1px solid #000000;
+    box-shadow: -1px -9px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 45px 45px 0px;
+}
+
+.itemList {
+    position: absolute;
+    width: 350px;
+    left: 0px;
+    top: 204px;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,88 @@
+.buff {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 395px;
+  height: 205px;
+  left: 451px;
+  top: 39px;
+
+  background: rgb(131, 131, 131);
+  border: 1px solid #000000;
+  box-shadow: 2px -2px 5px 4px rgba(0, 0, 0, 0.35),
+    inset -3px 4px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.buff > input {
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 339px;
+  height: 30px;
+}
+
+.buff > p {
+  position: absolute;
+  width: 339px;
+  height: 162px;
+  left: 27px;
+  top: 26px;
+  margin: 0px;
+
+  font-family: "Asul";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 118.5%;
+  /* or 24px */
+
+  text-align: center;
+  letter-spacing: 0.305em;
+
+  color: #1d1d1d;
+  mix-blend-mode: luminosity;
+  text-shadow: 1px -1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buff > .ellipseContainer > div {
+  background-color: #505050;
+  width: 50%;
+  height: 31%;
+  top: 125px;
+  left: 27px;
+}
+
+.buff > .ellipseContainer {
+  mix-blend-mode: luminosity;
+}
+
+.buff > .ellipseContainer > h1 {
+  font-family: "Asul";
+  font-style: normal;
+  font-weight: 700;
+  width: 50%;
+  height: 31%;
+  top: 125px;
+  left: 27px;
+  font-size: 44px;
+  text-shadow: 0px 0px 0px;
+}
+
+.buff > .addButton {
+  top: 126px;
+  left: 316px;
+  width: 52px;
+  height: 52px;
+}
+
+.buff > .deleteButton {
+  top: 126px;
+  left: 251px;
+  width: 52px;
+  height: 52px;
+}
