@@ -4,7 +4,7 @@ import Aside from "./components/main/Aside.jsx";
 import Main from "./components/main/Main.jsx";
 
 function App() {
-  //Элементы для теста работы приложения
+  //Тестовые данные
   const [itemList, setItemList] = useState([
     {
       name: "Work",
